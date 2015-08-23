@@ -1,0 +1,41 @@
+	<!-- ie8 fixes -->
+	<!--[if lt IE 9]>
+	<script src="/static/js/js/excanvas.js"></script>
+	<script src="js/respond.js"></script>
+	<![endif]-->
+
+	<!--common script for all pages-->
+	<!--script for this page only-->
+	<!-- END JAVASCRIPTS -->
+	<script type="text/javascript" src="/static/js/he_common.js"></script>
+	<script type="text/javascript" src="/static/js/data_js.js"></script>
+	<if condition="([pagename])">
+		<!-- page -->
+		
+		<script type="text/javascript" src="/static/js/plugins/sigma_grid/DataOpe.js"></script>
+		<script type="text/javascript" src="/static/js/plugins/sigma_grid/gt_msg_cn.js"></script>
+		<script type="text/javascript" src="/static/js/plugins/sigma_grid/gt_grid_all.js"></script>
+		<script type="text/javascript" src="/static/js/plugins/sigma_grid/sigma_custom/fix.toolbar.js"></script>
+
+		<script src="/static/js/views/[modelname]/[pagename].js"></script>
+		<script type="text/javascript">
+			var controller = null;
+			controller = "{$controller}";	
+			var URL_URL = '__URL__';
+			var PUBLIC_URL    = '__PUBLIC__';
+			var Y_URL = URL_URL.replace(/Home/, "Api");
+			
+		</script>
+	</if>
+	<script>
+
+		/*head.ready('/static/js/js/dataope_ext.js', function(){
+			alert('ssss');
+			window.PAGE_ACTION && $(window).ready(window.PAGE_ACTION().init());
+		});*/
+		// $(function(){
+		// 	window.PAGE_ACTION && $(window).ready(window.PAGE_ACTION().init());
+		// })
+		//(window.PAGE_ACTION && $(window).ready(window.PAGE_ACTION().init()));
+	</script>
+

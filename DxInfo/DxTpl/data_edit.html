@@ -1,0 +1,119 @@
+<notempty name="Think.get.haveHeader">
+    <include file="./DxInfo/DxTpl/header.html" />
+</notempty>
+
+
+<!-- 
+<link rel="stylesheet" href="__DXPUBLIC__/public/jquery-upload-file/blueimp/css/bootstrap-image-gallery.min.css"> -->
+
+<style type="text/css">
+.progress,.table{
+    margin-bottom: 0px;
+}
+.table th, .table td {
+    padding: 2px;
+}
+table .text-right,table td.itemAddTr{
+    vertical-align:middle;
+}
+table td .itemAddText,table td .itemAddInput,table td select{
+    margin-bottom: 0;
+}
+table td input.itemAddText,table td input.itemAddInput,table td select{
+    margin:4px auto;
+}
+#selectCanton{
+    display: inline;
+}
+</style>
+<script type="text/javascript">
+<!--
+    var id = {$pkId[1]};
+//-->
+    // 因为head.js 的缘故 id,后与validate.js 导致没有传递给validate.js 所以这里我重写了验证函数
+    $(function(){
+        $.validationEngineLanguage.allRules["checkFieldByUnique"] = {
+                "ajaxmethod": "POST",
+                "url": (Y_URL+"/checkFieldByUnique"),
+                "extraData":{"pk":((typeof id=='undefined')?"":id)},
+                "alertText": "此数据不可用!已存在!",
+                "alertTextOk": "此数据有效!",
+                "alertTextLoad": "正在验证数据!"
+        };      
+    })
+</script>
+<!-- 
+<script type="text/javascript" src="__DXPUBLIC__/public/jquery-upload-file/blueimp/js/load-image.min.js"></script>
+<script type="text/javascript" src="__DXPUBLIC__/public/jquery-upload-file/blueimp/js/tmpl.min.js"></script>
+ -->
+
+<script type="text/javascript">
+<!--
+(function($){
+    $(function(){
+        $("#itemAddForm").validationEngine({
+//            ajaxFormValidationMethod: 'post',
+            onValidationComplete:formSubmitComplete
+        });
+    });
+})(jQuery);
+//-->
+</script>
+<form id="itemAddForm">
+    <literal>
+    <notempty name="pkId.0">
+    <input name="{$pkId[0]}" value='{$pkId[1]}' style='display:none' type='hidden' class="pk"/>
+    </notempty>
+    </literal>
+    <table class="table table-bordered">
+        <?php
+        //dump($listFields);exit;
+        if(empty($modelInfo["addPageColumnNum"])) $modelInfo["addPageColumnNum"] = 1;
+        $fieldSize = sizeof($listFields);$fieldIndex = 0;
+
+        //dump($listFields);exit;
+
+        reset($listFields);
+        $field = current($listFields);
+        while($field!==false){
+            $fieldInput="";
+            if($field["display_none"])
+                printf("<tr class=\"itemAddTr\" style=\"display:none\">\n");
+            else
+                printf("<tr class=\"itemAddTr\">\n");
+            for($i=$modelInfo["addPageColumnNum"];$i>0;--$i){
+                ++$fieldIndex;
+                if($fieldIndex<=$fieldSize){
+                    printf("<td class='text-right'>%s</td>\n",$field["title"]);
+                    printf("<td>%s%s%s</td>\n",getFieldInput($field, $valid),$field["danwei"],$field["note"]);
+                    $field = next($listFields);
+                }else{
+                    $field = false;
+                    printf("<td class='text-right'></td>\n");
+                    printf("<td></td>\n");
+                }
+            }
+            echo "</tr>\n";
+        } 
+        
+        //ppker add cord date:2015-03-15
+        if($extval){
+            printf("<input type='hidden' name=%s value=%s />",$extval['key'],$extval['val']);
+        }
+        if(''!=$objectData['uuid']) {
+            printf("<input type='hidden' id='uuid' name='uuid' value=%s />",$objectData['uuid']);
+        }
+        //自动添加创建者 用于数据私有化
+        if(''!=$account_id) {
+            printf("<input type='hidden' id='account_id' name='account_id' value=%s />",$account_id);
+        }
+
+        ?>
+    </table>
+</form>
+
+<include file="Public:upload_file_tmpl" />
+
+<notempty name="Think.get.haveHeader">
+    <include file="./DxInfo/DxTpl/footer1.html" />
+</notempty>

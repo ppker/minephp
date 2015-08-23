@@ -1,0 +1,25 @@
+<div id="footer">
+	2013 &copy; MetroAdmin.
+</div>
+	<!-- END FOOTER -->
+
+	<!-- BEGIN JAVASCRIPTS -->
+	<!-- Load javascripts at bottom, this will reduce page load time -->
+
+
+	<!-- ie8 fixes -->
+	<!--[if lt IE 9]>
+	<script src="/static/js/js/excanvas.js"></script>
+	<script src="js/respond.js"></script>
+	<![endif]-->
+
+	<!--common script for all pages-->
+	<!--script for this page only-->
+	<!-- END JAVASCRIPTS -->
+	<if condition="([pagename])">
+		<!-- page -->
+		<script src="/static/js/views/[modelname]/[pagename].js"></script>
+	</if>
+	<script>
+		(window.PAGE_ACTION && $(window).ready(window.PAGE_ACTION().init));
+	</script>
