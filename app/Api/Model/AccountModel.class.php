@@ -60,7 +60,7 @@ class AccountModel extends DxAccountModel {
 	protected $modelInfo=array(
 			"title"=>'系统账号',
 			'readOnly'=>false,
-			"helpInfo"=>"1.删除账号并不影响机构信息<br />2.请根据角色进行合理的分配用户账户。",
+			"helpInfo"=>"1.删除账号并不影响机构信息 2.请根据角色进行合理的分配用户账户。",
 			'searchHTML'=>true
 	);
 }

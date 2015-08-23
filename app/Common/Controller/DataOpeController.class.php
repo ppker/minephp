@@ -219,7 +219,8 @@ class DataOpeController extends DxExtCommonController{
             //dump($_REQUEST);dump($m);die();
             //dump($_REQUEST);exit;
            
-            if(!empty($_REQUEST[$m->getPk()])){
+
+            if(!empty($_REQUEST[$m->getPk()]) && $_REQUEST[$m->getPk()]!='undefined' ){ // undefined 是因为controller 有赋值
                 $v      = $m->save();
                 $pkId 	= $_REQUEST[$m->getPk()];
             }else{
@@ -421,7 +422,9 @@ class DataOpeController extends DxExtCommonController{
 			}else{
 				$this->error('要修改的数据不存在!请确认操作是否正确!');
 			}
-		}
+		}else{ // 兼容页面的js语句 不报错，这里也进行传递
+            $this->assign('pkId',array($model->getPk(),undefined));
+        }
 		//dump(Model::MODEL_INSERT);exit;
 		$this->assign('valid', $model->getValidate(\Think\Model::MODEL_INSERT));
 		$this->assign('objectData', array_merge($vo,$_REQUEST));
