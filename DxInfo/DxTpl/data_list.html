@@ -6,52 +6,95 @@
   <embed id="LODOP_EM" type="application/x-print-lodop" width=0 height=0 pluginspage="install_lodop32.exe"></embed>
 </object> 
 </eq> -->
+<div id="main-content" style="min-height:500px;">
 
-<div id="main-content">
-      <div class="dataListLeftMenuArea">
-          <!-- {$modelInfo.leftArea} -->
-      </div>
-
-      <div class="dataListDataArea">
-      	<input id="modelInfo_editTitle" value="" type="hidden" />
-          <table id="gridHeader" style="display:none"></table>
+       <div class="container-fluid">
+          <!-- BEGIN PAGE HEADER-->   
+          <div class="row-fluid">
+             <div class="span12">
+                 <!-- BEGIN THEME CUSTOMIZER-->
+                 <div id="theme-change" class="hidden-phone">
+                     <i class="icon-cogs"></i>
+                      <span class="settings">
+                          <span class="text">主题颜色:</span>
+                          <span class="colors">
+                              <span class="color-default" data-style="default"></span>
+                              <span class="color-green" data-style="green"></span>
+                              <span class="color-gray" data-style="gray"></span>
+                              <span class="color-purple" data-style="purple"></span>
+                              <span class="color-red" data-style="red"></span>
+                          </span>
+                      </span>
+                 </div>
+                 <!-- END THEME CUSTOMIZER-->
+                <!-- BEGIN PAGE TITLE & BREADCRUMB-->
+                 <h3 class="page-title">
+                   控制台
+                 </h3>
+                 <ul class="breadcrumb">
+                     <li>
+                         <a href="index.html#">首页</a>
+                         <span class="divider">/</span>
+                     </li>                      
+                     <li class="active">
+                         控制台
+                     </li>
+                     
+                 </ul>
+                 <!-- END PAGE TITLE & BREADCRUMB-->
+             </div>
+          </div>
+          <!-- END PAGE HEADER-->
+          <!-- BEGIN PAGE CONTENT-->
           
-          <div id="header_title" class="dataListHeader" style="margin-bottom: 0px;">
-              <span style="font-size: 22px;font-weight: bold;"></span>
+          <div class="dataListLeftMenuArea">
+              <!-- {$modelInfo.leftArea} -->
+          </div>
+
+          <div class="dataListDataArea">
+            <input id="modelInfo_editTitle" value="" type="hidden" />
+              <table id="gridHeader" style="display:none"></table>
+              
+              <div id="header_title" class="dataListHeader" style="margin-bottom: 0px;">
+                  <span style="font-size: 22px;font-weight: bold;"></span>
+
+                
+                <div id='query_items' style="display:inline;">
+                  <form id="data_list_search" class="form-search" style="display:inline;">
+                    登录名:<input id='username' size='10' style='width:120px' class='dataOpeSearch z_input likeRight likeLeft' value='' />
+                    真实姓名:<input id='real_name' size='10' style='width:120px' class='dataOpeSearch z_input likeRight likeLeft' value='' />
+                    角色:<select id='role_id' name='role_id' class='dataOpeSearch' style='width:120px;style=display:inline'>
+                                <option value=''>请选择</option><volist name='roleArray' id='vo'><option value='{\$vo.role_id}'>{\$vo.name}</option></volist>
+                              </select>
+                    <input onclick='javascript:dataOpeSearch(true);' type='button' class='btn btn-info btn-sm' value='查询' id='item_query_items' />
+                    <input onclick='javascript:dataOpeSearch(false);' type='button' class='btn btn-info btn-sm' value='全部数据' id='item_query_all' />      
+                  </form>
+                </div>
+                <div class="y_import" style="display:none;"></div>
+            
+            </div>
+            
 
             
-            <div id='query_items' style="display:inline;">
-              <form id="data_list_search" class="form-search" style="display:inline;">
-                登录名:<input id='username' size='10' style='width:120px' class='dataOpeSearch z_input likeRight likeLeft' value='' />
-                真实姓名:<input id='real_name' size='10' style='width:120px' class='dataOpeSearch z_input likeRight likeLeft' value='' />
-                角色:<select id='role_id' name='role_id' class='dataOpeSearch' style='width:120px;style=display:inline'>
-                            <option value=''>请选择</option><volist name='roleArray' id='vo'><option value='{\$vo.role_id}'>{\$vo.name}</option></volist>
-                          </select>
-                <input onclick='javascript:dataOpeSearch(true);' type='button' class='btn btn-info btn-sm' value='查询' id='item_query_items' />
-                <input onclick='javascript:dataOpeSearch(false);' type='button' class='btn btn-info btn-sm' value='全部数据' id='item_query_all' />      
-              </form>
+            <div id="dataListCon">
+              <div id="dataList"></div>
+              
+              <div id="grid-help-info">
+                {$modelInfo["helpInfo"]}
+              </div>
             </div>
-            <div class="y_import" style="display:none;"></div>
-        
-        </div>
-        
-
-        
-        <div id="dataListCon">
-          <div id="dataList"></div>
-          
-          <div id="grid-help-info">
-            {$modelInfo["helpInfo"]}
           </div>
-        </div>
-      </div>
-      <!--
-      <eq name="Think.config.APP_DEBUG" value="true">
-      	<script src="__PUBLIC__/public/sigma_grid/src/gt_base.js" type="text/javascript"></script>
-      	<script src="__PUBLIC__/public/sigma_grid/src/gt_tool.js" type="text/javascript"></script>
-      </eq>
-      -->
-      <div class="js_sign"></div>
+          <!--
+          <eq name="Think.config.APP_DEBUG" value="true">
+            <script src="__PUBLIC__/public/sigma_grid/src/gt_base.js" type="text/javascript"></script>
+            <script src="__PUBLIC__/public/sigma_grid/src/gt_tool.js" type="text/javascript"></script>
+          </eq>
+          -->
+          <div class="js_sign"></div>
+
+       <!-- END PAGE CONTAINER-->
+    </div>
+
 </div>
 <include file="./DxInfo/DxTpl/footer1.html" pagename="dataList" modelname="home" />
 <include file="./DxInfo/DxTpl/main_footer.html" />
