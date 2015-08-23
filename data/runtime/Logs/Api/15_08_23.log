@@ -1,0 +1,1997 @@
+[ 2015-08-23T17:55:04+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T17:55:04+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T17:55:04+08:00 ] ::1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'minephp\' => \'9kt9q7eoj0h48qg5l2k9ig4hq4\',
+  \'timezone\' => \'8\',
+)') [ RunTime:0.0004s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 292 行.
+NOTIC: [8] Undefined index: addTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: valChange C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [8] Undefined index: valChange C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [8] Undefined index: width C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 184 行.
+NOTIC: [8] Undefined index: valChange C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [8] Undefined index: valChange C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [8] Undefined index: valChange C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [8] Undefined index: valChange C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [8] Undefined index: valChange C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [8] Undefined index: valChange C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: dictType C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+NOTIC: [8] Undefined index: where C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 552 行.
+SQL: SELECT `role_id`,`name` FROM `role`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: orgTableName C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::arrayToArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 630 行.
+NOTIC: [8] Undefined index: width C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 184 行.
+NOTIC: [8] Undefined index: valChange C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [8] Undefined index: valChange C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+SQL: SHOW COLUMNS FROM `canton` [ RunTime:0.0433s ]
+NOTIC: [8] Undefined index: dictType C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+NOTIC: [8] Undefined index: where C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 552 行.
+SQL: SELECT `fdn`,`text_name` FROM `canton`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: orgTableName C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::arrayToArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 630 行.
+NOTIC: [8] Undefined index: width C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 184 行.
+NOTIC: [8] Undefined index: valChange C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [8] Undefined index: width C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 184 行.
+NOTIC: [8] Undefined index: valChange C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 199 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-08-23T17:55:05+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T17:55:05+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T17:55:05+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+  'timezone' => '8',
+  'minephp' => '9kt9q7eoj0h48qg5l2k9ig4hq4',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-08-23T17:55:05+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-08-23T17:55:05+08:00 ] ::1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-08-23T17:55:05+08:00 ] ::1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','Account','Api','','admin','1','0','array (
+  \'timezone\' => \'8\',
+  \'minephp\' => \'9kt9q7eoj0h48qg5l2k9ig4hq4\',
+)') [ RunTime:0.0005s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: orgTableName C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2015-08-23T17:56:40+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T17:56:40+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T17:56:40+08:00 ] ::1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0082s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'minephp\' => \'9kt9q7eoj0h48qg5l2k9ig4hq4\',
+  \'timezone\' => \'8\',
+)') [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 292 行.
+NOTIC: [8] Undefined index: addTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-08-23T17:56:41+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T17:56:41+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T17:56:41+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+  'timezone' => '8',
+  'minephp' => '9kt9q7eoj0h48qg5l2k9ig4hq4',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-08-23T17:56:41+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-08-23T17:56:41+08:00 ] ::1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-08-23T17:56:41+08:00 ] ::1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0167s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','Account','Api','','admin','1','0','array (
+  \'timezone\' => \'8\',
+  \'minephp\' => \'9kt9q7eoj0h48qg5l2k9ig4hq4\',
+)') [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: orgTableName C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2015-08-23T17:57:57+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T17:57:57+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T17:57:57+08:00 ] ::1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'minephp\' => \'9kt9q7eoj0h48qg5l2k9ig4hq4\',
+  \'timezone\' => \'8\',
+)') [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 292 行.
+NOTIC: [8] Undefined index: addTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-08-23T17:57:57+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T17:57:57+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T17:57:57+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+  'timezone' => '8',
+  'minephp' => '9kt9q7eoj0h48qg5l2k9ig4hq4',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-08-23T17:57:57+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-08-23T17:57:57+08:00 ] ::1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-08-23T17:57:57+08:00 ] ::1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','Account','Api','','admin','1','0','array (
+  \'timezone\' => \'8\',
+  \'minephp\' => \'9kt9q7eoj0h48qg5l2k9ig4hq4\',
+)') [ RunTime:0.0005s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: orgTableName C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2015-08-23T18:04:55+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T18:04:55+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T18:04:55+08:00 ] ::1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'minephp\' => \'9kt9q7eoj0h48qg5l2k9ig4hq4\',
+  \'timezone\' => \'8\',
+)') [ RunTime:0.0005s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 292 行.
+NOTIC: [8] Undefined index: addTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-08-23T18:04:55+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T18:04:55+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T18:04:55+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+  'timezone' => '8',
+  'minephp' => '9kt9q7eoj0h48qg5l2k9ig4hq4',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-08-23T18:04:55+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-08-23T18:04:55+08:00 ] ::1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-08-23T18:04:55+08:00 ] ::1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','Account','Api','','admin','1','0','array (
+  \'timezone\' => \'8\',
+  \'minephp\' => \'9kt9q7eoj0h48qg5l2k9ig4hq4\',
+)') [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: orgTableName C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2015-08-23T18:05:14+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T18:05:14+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T18:05:14+08:00 ] ::1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'minephp\' => \'9kt9q7eoj0h48qg5l2k9ig4hq4\',
+  \'timezone\' => \'8\',
+)') [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 292 行.
+NOTIC: [8] Undefined index: addTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-08-23T18:05:14+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T18:05:14+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T18:05:14+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+  'timezone' => '8',
+  'minephp' => '9kt9q7eoj0h48qg5l2k9ig4hq4',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-08-23T18:05:14+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-08-23T18:05:14+08:00 ] ::1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-08-23T18:05:14+08:00 ] ::1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','Account','Api','','admin','1','0','array (
+  \'timezone\' => \'8\',
+  \'minephp\' => \'9kt9q7eoj0h48qg5l2k9ig4hq4\',
+)') [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: orgTableName C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2015-08-23T18:07:07+08:00 ] ::1 /Api/Checkcode/index/length/4/font_size/25/width/238/height/50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2015-08-23T18:07:14+08:00 ] ::1 /Api/Checkcode/index/length/4/font_size/25/width/238/height/50&time=0.130182927516024
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2015-08-23T18:07:18+08:00 ] ::1 /Api/Public/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+NOTIC: [8] Undefined index: real_name C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 163 行.
+NOTIC: [8] Undefined index: account_id C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 167 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined variable: id C:\yzp\secret\minephp\app\Common\Controller\DxPublicController.class.php 第 110 行.
+NOTIC: [8] Undefined index: login_type C:\yzp\secret\minephp\app\Common\Controller\DxPublicController.class.php 第 116 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0033s ]
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT * FROM `account` WHERE `username` = 'admin'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: orgTableName C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::authcode() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxPublicController.class.php 第 145 行.
+NOTIC: [8] Undefined index: saveMyAccount C:\yzp\secret\minephp\app\Common\Controller\DxPublicController.class.php 第 154 行.
+NOTIC: [8] Undefined index: login_username C:\yzp\secret\minephp\app\Common\Controller\DxPublicController.class.php 第 168 行.
+NOTIC: [8] Undefined index: true_name C:\yzp\secret\minephp\app\Common\Controller\DxPublicController.class.php 第 169 行.
+NOTIC: [8] Undefined index: user_type C:\yzp\secret\minephp\app\Common\Controller\DxPublicController.class.php 第 173 行.
+NOTIC: [8] Undefined index: user_type C:\yzp\secret\minephp\app\Common\Controller\DxPublicController.class.php 第 175 行.
+NOTIC: [8] Undefined index: main_url C:\yzp\secret\minephp\app\Common\Controller\DxPublicController.class.php 第 176 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxPublicController.class.php 第 179 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\yzp\secret\minephp\app\Common\Controller\DxPublicController.class.php 第 181 行.
+NOTIC: [8] Undefined index: Api C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','Public','Api','','admin','1','0','array (
+  \'username\' => \'admin\',
+  \'password\' => \'123456\',
+  \'verify\' => \'5rvq\',
+  \'timezone\' => \'8\',
+  \'minephp\' => \'vcjq6qje4rp5djsa671s8b3fd1\',
+)') [ RunTime:0.0003s ]
+
+[ 2015-08-23T18:08:29+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T18:08:29+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T18:08:29+08:00 ] ::1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'timezone\' => \'8\',
+  \'minephp\' => \'vcjq6qje4rp5djsa671s8b3fd1\',
+)') [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 292 行.
+NOTIC: [8] Undefined index: addTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-08-23T18:08:29+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T18:08:29+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T18:08:29+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+  'timezone' => '8',
+  'minephp' => 'vcjq6qje4rp5djsa671s8b3fd1',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-08-23T18:08:29+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-08-23T18:08:29+08:00 ] ::1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-08-23T18:08:29+08:00 ] ::1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','Account','Api','','admin','1','0','array (
+  \'timezone\' => \'8\',
+  \'minephp\' => \'vcjq6qje4rp5djsa671s8b3fd1\',
+)') [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: orgTableName C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2015-08-23T18:10:23+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T18:10:23+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T18:10:23+08:00 ] ::1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'timezone\' => \'8\',
+  \'minephp\' => \'vcjq6qje4rp5djsa671s8b3fd1\',
+)') [ RunTime:0.0006s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 292 行.
+NOTIC: [8] Undefined index: addTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-08-23T18:10:24+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T18:10:24+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T18:10:24+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+  'timezone' => '8',
+  'minephp' => 'vcjq6qje4rp5djsa671s8b3fd1',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-08-23T18:10:24+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-08-23T18:10:24+08:00 ] ::1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-08-23T18:10:24+08:00 ] ::1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','Account','Api','','admin','1','0','array (
+  \'timezone\' => \'8\',
+  \'minephp\' => \'vcjq6qje4rp5djsa671s8b3fd1\',
+)') [ RunTime:0.0005s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: orgTableName C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2015-08-23T18:12:01+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T18:12:01+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T18:12:01+08:00 ] ::1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'timezone\' => \'8\',
+  \'minephp\' => \'vcjq6qje4rp5djsa671s8b3fd1\',
+)') [ RunTime:0.0011s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 292 行.
+NOTIC: [8] Undefined index: addTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-08-23T18:12:02+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T18:12:02+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T18:12:02+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+  'timezone' => '8',
+  'minephp' => 'vcjq6qje4rp5djsa671s8b3fd1',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-08-23T18:12:02+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-08-23T18:12:02+08:00 ] ::1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-08-23T18:12:02+08:00 ] ::1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','Account','Api','','admin','1','0','array (
+  \'timezone\' => \'8\',
+  \'minephp\' => \'vcjq6qje4rp5djsa671s8b3fd1\',
+)') [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: orgTableName C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2015-08-23T18:12:21+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T18:12:21+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T18:12:21+08:00 ] ::1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'timezone\' => \'8\',
+  \'minephp\' => \'vcjq6qje4rp5djsa671s8b3fd1\',
+)') [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 292 行.
+NOTIC: [8] Undefined index: addTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-08-23T18:12:21+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T18:12:21+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T18:12:21+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+  'timezone' => '8',
+  'minephp' => 'vcjq6qje4rp5djsa671s8b3fd1',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-08-23T18:12:21+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-08-23T18:12:21+08:00 ] ::1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-08-23T18:12:21+08:00 ] ::1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','Account','Api','','admin','1','0','array (
+  \'timezone\' => \'8\',
+  \'minephp\' => \'vcjq6qje4rp5djsa671s8b3fd1\',
+)') [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: orgTableName C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2015-08-23T18:12:34+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T18:12:34+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T18:12:34+08:00 ] ::1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0211s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'timezone\' => \'8\',
+  \'minephp\' => \'vcjq6qje4rp5djsa671s8b3fd1\',
+)') [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 292 行.
+NOTIC: [8] Undefined index: addTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-08-23T18:12:35+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T18:12:35+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T18:12:35+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+  'timezone' => '8',
+  'minephp' => 'vcjq6qje4rp5djsa671s8b3fd1',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-08-23T18:12:35+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-08-23T18:12:35+08:00 ] ::1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-08-23T18:12:35+08:00 ] ::1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','Account','Api','','admin','1','0','array (
+  \'timezone\' => \'8\',
+  \'minephp\' => \'vcjq6qje4rp5djsa671s8b3fd1\',
+)') [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: orgTableName C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2015-08-23T18:13:25+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T18:13:25+08:00 ] ::1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-08-23T18:13:25+08:00 ] ::1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'timezone\' => \'8\',
+  \'minephp\' => \'vcjq6qje4rp5djsa671s8b3fd1\',
+)') [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 292 行.
+NOTIC: [8] Undefined index: addTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-08-23T18:13:25+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T18:13:25+08:00 ] ::1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-08-23T18:13:25+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+  'timezone' => '8',
+  'minephp' => 'vcjq6qje4rp5djsa671s8b3fd1',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-08-23T18:13:25+08:00 ] ::1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-08-23T18:13:25+08:00 ] ::1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-08-23T18:13:25+08:00 ] ::1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','Account','Api','','admin','1','0','array (
+  \'timezone\' => \'8\',
+  \'minephp\' => \'vcjq6qje4rp5djsa671s8b3fd1\',
+)') [ RunTime:0.0004s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: orgTableName C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print C:\yzp\secret\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
