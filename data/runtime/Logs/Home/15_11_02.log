@@ -1,0 +1,146 @@
+[ 2015-11-02T11:43:25+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.1627s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+NOTIC: [8] Undefined index: real_name C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 163 行.
+NOTIC: [8] Undefined index: account_id C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 167 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+
+[ 2015-11-02T11:43:26+08:00 ] ::1 /Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0193s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+NOTIC: [8] Undefined index: real_name C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 163 行.
+NOTIC: [8] Undefined index: account_id C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 167 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020554s ]
+
+[ 2015-11-02T11:43:33+08:00 ] ::1 /Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0510s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','Index','Home','','admin','1','0','array (
+  \'_identity\' => \'17161fe15ecc785aeedbd3d766f646ee5b84fb288129ad5aac8b9773b997ffa1a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}\',
+  \'minephp\' => \'mdh0v0ub6unipsih4ceoifok66\',
+)') [ RunTime:0.0008s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(/DxInfo/DxTpl/footer.html): failed to open stream: No such file or directory C:\yzp\secret\minephp\ppker\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000523s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000781s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001858s ]
+
+[ 2015-11-02T11:43:43+08:00 ] ::1 /Home/account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','Account','Home','','admin','1','0','array (
+  \'_identity\' => \'17161fe15ecc785aeedbd3d766f646ee5b84fb288129ad5aac8b9773b997ffa1a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}\',
+  \'minephp\' => \'mdh0v0ub6unipsih4ceoifok66\',
+)') [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0159s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0032s ]
+SQL: SELECT `role_id`,`name` FROM `role` ORDER BY `order` asc  [ RunTime:0.0218s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(/DxInfo/DxTpl/footer.html): failed to open stream: No such file or directory C:\yzp\secret\minephp\ppker\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Undefined variable: modelInfo C:\yzp\secret\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 447 行.
+NOTIC: [8] Undefined variable: modelInfo C:\yzp\secret\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 493 行.
+NOTIC: [8] Undefined variable: modelInfo C:\yzp\secret\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 525 行.
+NOTIC: [8] Use of undefined constant dataList - assumed 'dataList' C:\yzp\secret\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 558 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2015-11-02T11:44:19+08:00 ] ::1 /Api/Account/delete/18
+INFO: Account->getListFields
+[ 2015-11-02T11:44:19+08:00 ] ::1 /Api/Account/delete/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('0.0.0.0_::1','Account','Home','','admin','1','0','array (
+  \'id\' => \'18\',
+  \'e\' => \'18\',
+  \'_identity\' => \'17161fe15ecc785aeedbd3d766f646ee5b84fb288129ad5aac8b9773b997ffa1a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}\',
+  \'minephp\' => \'mdh0v0ub6unipsih4ceoifok66\',
+)') [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0058s ]
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\yzp\secret\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: DELETE FROM `account` WHERE `account_id` = 18 [ RunTime:0.0073s ]
+

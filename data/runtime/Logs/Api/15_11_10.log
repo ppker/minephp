@@ -1,0 +1,1545 @@
+[ 2015-11-10T22:48:19+08:00 ] 127.0.0.1 /Api/Checkcode/index/length/4/font_size/25/width/238/height/50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-10T22:48:30+08:00 ] 127.0.0.1 /Api/Checkcode/index/length/4/font_size/25/width/238/height/50&time=0.4682962172664702
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-10T22:48:38+08:00 ] 127.0.0.1 /Api/Public/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+NOTIC: [8] Undefined index: real_name D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 163 行.
+NOTIC: [8] Undefined index: account_id D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 167 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\minephp\app\Common\Controller\DxPublicController.class.php 第 112 行.
+NOTIC: [8] Undefined index: login_type D:\wamp\www\minephp\app\Common\Controller\DxPublicController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0090s ]
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT * FROM `account` WHERE `username` = 'admin'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: orgTableName D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::authcode() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxPublicController.class.php 第 147 行.
+NOTIC: [8] Undefined index: saveMyAccount D:\wamp\www\minephp\app\Common\Controller\DxPublicController.class.php 第 156 行.
+NOTIC: [8] Undefined index: login_username D:\wamp\www\minephp\app\Common\Controller\DxPublicController.class.php 第 170 行.
+NOTIC: [8] Undefined index: true_name D:\wamp\www\minephp\app\Common\Controller\DxPublicController.class.php 第 171 行.
+NOTIC: [8] Undefined index: user_type D:\wamp\www\minephp\app\Common\Controller\DxPublicController.class.php 第 175 行.
+NOTIC: [8] Undefined index: user_type D:\wamp\www\minephp\app\Common\Controller\DxPublicController.class.php 第 177 行.
+NOTIC: [8] Undefined index: main_url D:\wamp\www\minephp\app\Common\Controller\DxPublicController.class.php 第 178 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxPublicController.class.php 第 181 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 1343 行.
+NOTIC: [8] Undefined index: title D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 1343 行.
+NOTIC: [8] Undefined index: title D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 1343 行.
+NOTIC: [8] Undefined index: title D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 1343 行.
+NOTIC: [8] Undefined index: title D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 1343 行.
+NOTIC: [8] Undefined index: title D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 1343 行.
+NOTIC: [8] Undefined index: title D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 1343 行.
+NOTIC: [8] Undefined index: title D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 1343 行.
+NOTIC: [8] Undefined index: title D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 1343 行.
+NOTIC: [8] Undefined index: title D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 1343 行.
+NOTIC: [8] Undefined index: title D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 1343 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0090s ]
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `menu_ids` FROM `role` WHERE `role_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT * FROM `menu` WHERE `menu_id` IN ('1','2') ORDER BY order_no asc  [ RunTime:0.0470s ]
+NOTIC: [8] Undefined variable: orgTableName D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\minephp\app\Common\Controller\DxPublicController.class.php 第 183 行.
+NOTIC: [8] Undefined index: Api D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Public','Api','','admin','1','0','array (
+  \'username\' => \'admin\',
+  \'password\' => \'123456\',
+  \'verify\' => \'kbnb\',
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+
+[ 2015-11-10T22:48:52+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-11-10T22:48:52+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-11-10T22:48:52+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: enablePage D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 293 行.
+NOTIC: [8] Undefined index: addTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-11-10T22:48:52+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-11-10T22:48:53+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-11-10T22:48:53+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: array (
+  'minephp' => '0dfl61slk18ppqvsdtpihpmkd6',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-11-10T22:48:53+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-11-10T22:48:53+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-11-10T22:48:53+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Account','Api','','admin','1','0','array (
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: orgTableName D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-10T22:49:00+08:00 ] 127.0.0.1 /Api/Account/get_datalist?export=xls
+INFO: Account->getListFields
+[ 2015-11-10T22:49:00+08:00 ] 127.0.0.1 /Api/Account/get_datalist?export=xls
+INFO: Account->getListFields
+[ 2015-11-10T22:49:00+08:00 ] 127.0.0.1 /Api/Account/get_datalist?export=xls
+INFO: array (
+  'exportFileName' => '',
+  'exportType' => 'xls',
+  'export' => 'xls',
+  'minephp' => '0dfl61slk18ppqvsdtpihpmkd6',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-11-10T22:49:00+08:00 ] 127.0.0.1 /Api/Account/get_datalist?export=xls
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-11-10T22:49:00+08:00 ] 127.0.0.1 /Api/Account/get_datalist?export=xls
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc 
+[ 2015-11-10T22:49:00+08:00 ] 127.0.0.1 /Api/Account/get_datalist?export=xls
+INFO: Account->getListFields
+[ 2015-11-10T22:49:00+08:00 ] 127.0.0.1 /Api/Account/get_datalist?export=xls
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Account','Api','','admin','1','0','array (
+  \'exportFileName\' => \'\',
+  \'exportType\' => \'xls\',
+  \'export\' => \'xls\',
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: startRowNum D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 36 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 37 行.
+NOTIC: [8] Undefined index: order D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: orgTableName D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: gridHeader D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\minephp\data\runtime\Cache\Api\7a61a7d23de9523e93fb03f99f4bce93.php 第 74 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\minephp\data\runtime\Cache\Api\7a61a7d23de9523e93fb03f99f4bce93.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-11-10T22:50:58+08:00 ] 127.0.0.1 /Api/Checkcode/index/length/4/font_size/25/width/238/height/50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-11-10T22:51:33+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-11-10T22:51:33+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-11-10T22:51:33+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0300s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: enablePage D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 293 行.
+NOTIC: [8] Undefined index: addTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-11-10T22:51:33+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-11-10T22:51:34+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-11-10T22:51:34+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: array (
+  'minephp' => '0dfl61slk18ppqvsdtpihpmkd6',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-11-10T22:51:34+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-11-10T22:51:34+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-11-10T22:51:34+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Account','Api','','admin','1','0','array (
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0020s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: orgTableName D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-10T22:52:00+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-11-10T22:52:00+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-11-10T22:52:00+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: enablePage D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 293 行.
+NOTIC: [8] Undefined index: addTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-11-10T22:52:00+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-11-10T22:52:00+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-11-10T22:52:00+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: array (
+  'minephp' => '0dfl61slk18ppqvsdtpihpmkd6',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-11-10T22:52:00+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-11-10T22:52:00+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-11-10T22:52:00+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Account','Api','','admin','1','0','array (
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0020s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: orgTableName D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-10T22:52:14+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-11-10T22:52:14+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-11-10T22:52:14+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: enablePage D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 293 行.
+NOTIC: [8] Undefined index: addTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-11-10T22:52:15+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-11-10T22:52:15+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-11-10T22:52:15+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: array (
+  'minephp' => '0dfl61slk18ppqvsdtpihpmkd6',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-11-10T22:52:15+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-11-10T22:52:15+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-11-10T22:52:15+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Account','Api','','admin','1','0','array (
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0020s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: orgTableName D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-11-10T22:52:58+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-11-10T22:52:58+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-11-10T22:52:58+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: enablePage D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 293 行.
+NOTIC: [8] Undefined index: addTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-11-10T22:52:59+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-11-10T22:52:59+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-11-10T22:52:59+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: array (
+  'minephp' => '0dfl61slk18ppqvsdtpihpmkd6',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-11-10T22:52:59+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-11-10T22:52:59+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-11-10T22:52:59+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Account','Api','','admin','1','0','array (
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0020s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: orgTableName D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-10T22:53:13+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-11-10T22:53:13+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-11-10T22:53:13+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: enablePage D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 293 行.
+NOTIC: [8] Undefined index: addTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-11-10T22:53:13+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-11-10T22:53:14+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-11-10T22:53:14+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: array (
+  'minephp' => '0dfl61slk18ppqvsdtpihpmkd6',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-11-10T22:53:14+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-11-10T22:53:14+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-11-10T22:53:14+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Account','Api','','admin','1','0','array (
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: orgTableName D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-10T22:53:26+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-11-10T22:53:26+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-11-10T22:53:26+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: enablePage D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 293 行.
+NOTIC: [8] Undefined index: addTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-11-10T22:53:27+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-11-10T22:53:27+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-11-10T22:53:27+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: array (
+  'minephp' => '0dfl61slk18ppqvsdtpihpmkd6',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-11-10T22:53:27+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-11-10T22:53:27+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-11-10T22:53:27+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Account','Api','','admin','1','0','array (
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: orgTableName D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-10T22:54:36+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-11-10T22:54:36+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: Account->getListFields
+[ 2015-11-10T22:54:36+08:00 ] 127.0.0.1 /Api/DataList/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0270s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','DataList','Api','','admin','1','0','array (
+  \'controller\' => \'Account\',
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0050s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: enablePage D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enablePrint D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: enableImport D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 293 行.
+NOTIC: [8] Undefined index: addTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: importTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: editTitle D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hasCheckBox D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: frozen D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 364 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 358 行.
+NOTIC: [8] Undefined index: grouped D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 365 行.
+NOTIC: [8] Undefined index: toolTip D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 367 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 387 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 277 行.
+NOTIC: [8] Undefined index: readOnly D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 280 行.
+NOTIC: [8] Undefined index: display_none D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 281 行.
+
+[ 2015-11-10T22:54:36+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-11-10T22:54:37+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: Account->getListFields
+[ 2015-11-10T22:54:37+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: array (
+  'minephp' => '0dfl61slk18ppqvsdtpihpmkd6',
+)array (
+  0 => 'account_id',
+  1 => 'username',
+  2 => 'pwd',
+  3 => 'real_name',
+  4 => 'tel',
+  5 => 'email',
+  6 => 'address',
+  7 => 'sort',
+  8 => 'role_id',
+  9 => 'dept_id',
+  10 => 'canton_id',
+  11 => 'canton_fdn',
+  12 => 'create_id',
+  13 => 'create_time',
+)Api|get_datalist
+[ 2015-11-10T22:54:37+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: array (
+)Api|get_datalist_Search
+[ 2015-11-10T22:54:37+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+ERR: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20  
+[ 2015-11-10T22:54:37+08:00 ] 127.0.0.1 /Api/Account/get_datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Account','Api','','admin','1','0','array (
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 22 行.
+NOTIC: [8] Undefined index: enablePage D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: hide D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 330 行.
+NOTIC: [8] Undefined index: order D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT `canton_fdn`,`account_id`,`username`,`real_name`,`tel`,`email`,`address`,`sort`,`role_id`,`dept_id`,`canton_id`,`create_id`,`create_time` FROM `account` ORDER BY account_id desc LIMIT 0,20   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: orgTableName D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 421 行.
+NOTIC: [8] Undefined index: data_change D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: showTotal D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 299 行.
+NOTIC: [8] Undefined index: print D:\wamp\www\minephp\app\Common\Controller\DataOpeController.class.php 第 96 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 470 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 488 行.
+NOTIC: [2048] Non-static method Common\Model\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Model\DxFunction.class.php 第 202 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\minephp\app\Common\Model\DxExtCommonModel.class.php 第 550 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `account` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

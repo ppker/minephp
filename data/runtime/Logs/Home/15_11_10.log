@@ -1,0 +1,437 @@
+[ 2015-11-10T22:29:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032002s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0370s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+NOTIC: [8] Undefined index: real_name D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 163 行.
+NOTIC: [8] Undefined index: account_id D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 167 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+
+[ 2015-11-10T22:31:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+NOTIC: [8] Undefined index: real_name D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 163 行.
+NOTIC: [8] Undefined index: account_id D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 167 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+
+[ 2015-11-10T22:35:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+NOTIC: [8] Undefined index: real_name D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 163 行.
+NOTIC: [8] Undefined index: account_id D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 167 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+
+[ 2015-11-10T22:35:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+NOTIC: [8] Undefined index: real_name D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 163 行.
+NOTIC: [8] Undefined index: account_id D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 167 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+
+[ 2015-11-10T22:35:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+NOTIC: [8] Undefined index: real_name D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 163 行.
+NOTIC: [8] Undefined index: account_id D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 167 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+
+[ 2015-11-10T22:48:18+08:00 ] 127.0.0.1 /Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+NOTIC: [8] Undefined index: real_name D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 163 行.
+NOTIC: [8] Undefined index: account_id D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 167 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2015-11-10T22:48:39+08:00 ] 127.0.0.1 /Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Index','Home','','admin','1','0','array (
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0020s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(/DxInfo/DxTpl/footer.html): failed to open stream: No such file or directory D:\wamp\www\minephp\ppker\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-11-10T22:48:51+08:00 ] 127.0.0.1 /Home/account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Account','Home','','admin','1','0','array (
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0120s ]
+SQL: SELECT `role_id`,`name` FROM `role` ORDER BY `order` asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(/DxInfo/DxTpl/footer.html): failed to open stream: No such file or directory D:\wamp\www\minephp\ppker\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: modelInfo D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 447 行.
+NOTIC: [8] Undefined variable: modelInfo D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 493 行.
+NOTIC: [8] Undefined variable: modelInfo D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 525 行.
+NOTIC: [8] Use of undefined constant dataList - assumed 'dataList' D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 558 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-10T22:51:31+08:00 ] 127.0.0.1 /Home/account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Account','Home','','admin','1','0','array (
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0020s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0140s ]
+SQL: SELECT `role_id`,`name` FROM `role` ORDER BY `order` asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(/DxInfo/DxTpl/footer.html): failed to open stream: No such file or directory D:\wamp\www\minephp\ppker\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: modelInfo D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 447 行.
+NOTIC: [8] Undefined variable: modelInfo D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 493 行.
+NOTIC: [8] Undefined variable: modelInfo D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 525 行.
+NOTIC: [8] Use of undefined constant dataList - assumed 'dataList' D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 558 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-11-10T22:51:58+08:00 ] 127.0.0.1 /Home/account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Account','Home','','admin','1','0','array (
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0120s ]
+SQL: SELECT `role_id`,`name` FROM `role` ORDER BY `order` asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(/DxInfo/DxTpl/footer.html): failed to open stream: No such file or directory D:\wamp\www\minephp\ppker\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: modelInfo D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 447 行.
+NOTIC: [8] Undefined variable: modelInfo D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 493 行.
+NOTIC: [8] Undefined variable: modelInfo D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 525 行.
+NOTIC: [8] Use of undefined constant dataList - assumed 'dataList' D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 558 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-11-10T22:52:12+08:00 ] 127.0.0.1 /Home/button.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Button
+
+[ 2015-11-10T22:52:57+08:00 ] 127.0.0.1 /Home/account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Account','Home','','admin','1','0','array (
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0120s ]
+SQL: SELECT `role_id`,`name` FROM `role` ORDER BY `order` asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(/DxInfo/DxTpl/footer.html): failed to open stream: No such file or directory D:\wamp\www\minephp\ppker\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: modelInfo D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 447 行.
+NOTIC: [8] Undefined variable: modelInfo D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 493 行.
+NOTIC: [8] Undefined variable: modelInfo D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 525 行.
+NOTIC: [8] Use of undefined constant dataList - assumed 'dataList' D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 558 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2015-11-10T22:53:10+08:00 ] 127.0.0.1 /Home/form_component.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Form_component
+
+[ 2015-11-10T22:53:24+08:00 ] 127.0.0.1 /Home/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Login
+
+[ 2015-11-10T22:53:42+08:00 ] 127.0.0.1 /Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Index','Home','','admin','1','0','array (
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(/DxInfo/DxTpl/footer.html): failed to open stream: No such file or directory D:\wamp\www\minephp\ppker\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-10T22:54:11+08:00 ] 127.0.0.1 /Home/form_layout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Form_layout
+
+[ 2015-11-10T22:54:35+08:00 ] 127.0.0.1 /Home/account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Account','Home','','admin','1','0','array (
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0020s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0140s ]
+SQL: SELECT `role_id`,`name` FROM `role` ORDER BY `order` asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(/DxInfo/DxTpl/footer.html): failed to open stream: No such file or directory D:\wamp\www\minephp\ppker\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: modelInfo D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 447 行.
+NOTIC: [8] Undefined variable: modelInfo D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 493 行.
+NOTIC: [8] Undefined variable: modelInfo D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 525 行.
+NOTIC: [8] Use of undefined constant dataList - assumed 'dataList' D:\wamp\www\minephp\data\runtime\Cache\Home\5d2efa6b2b2806326afbf20ef1966273.php 第 558 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-10T22:55:22+08:00 ] 127.0.0.1 /Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: allController D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+SQL: INSERT INTO `operation_log` (`ip`,`controller`,`module`,`controller_name`,`account_name`,`account_id`,`over_pri`,`options`) VALUES ('127.0.0.1_127.0.0.1','Index','Home','','admin','1','0','array (
+  \'minephp\' => \'0dfl61slk18ppqvsdtpihpmkd6\',
+)') [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context D:\wamp\www\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(/DxInfo/DxTpl/footer.html): failed to open stream: No such file or directory D:\wamp\www\minephp\ppker\Core\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

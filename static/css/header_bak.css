@@ -1,0 +1,20 @@
+
+.span3 {
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.caption-sub {
+	height: 80px;
+	background: #117A65;	
+}
+
+.tile {
+	background: none;
+}
+
+.itemBox p,
+.tile p {
+	line-height: 1.4;
+	font-size: 16px;
+}

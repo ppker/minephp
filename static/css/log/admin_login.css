@@ -1,0 +1,215 @@
+/*
+===================
+@explain: 系统后台登录页面
+@copyright: Copyright 2012,phpwind.com
+@author: longwenid@gmail.com
+$Id: admin_login.css 22060 2012-12-19 03:01:55Z yanchixia $
+===================
+*/
+
+html {
+	padding: 0;
+	margin: 0;
+}
+body {
+	overflow: hidden;
+	height: 100%;
+	background: url(../../images/log/loginbg.jpg) center center fixed no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, "Microsoft Yahei";
+}
+.logo_in {
+	position: absolute;
+	left: 50px;
+	top: 40px;
+}
+.logo_in img{
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+.tip {
+	/* position:absolute; */
+	margin:80px auto;
+	width:400px;
+	text-align:center;
+	/* left:550px;
+	top:80px; */
+	background: rgba(0, 0, 0, 0.3);
+	padding:10px;
+}
+
+
+.copy {
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	padding: 10px;
+	left: 50px;
+	bottom: 20px;
+	font-size: 20px;
+	color: #fff;
+}
+.copy a {
+	color: #fff;
+	text-decoration: none;
+}
+.wrap_in {
+	width: 300px;
+	background: #fff;
+	overflow: hidden;
+	margin: 0 auto;
+	-webkit-animation: bounceIn 600ms linear;
+	-moz-animation: bounceIn 600ms linear;
+	-o-animation: bounceIn 600ms linear;
+	animation: bounceIn 600ms linear;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.9;
+	padding: 20px;
+	margin-top: 80px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	box-shadow: 0 0 10px #666;
+}
+.login_in h1 {
+	font-size: 22px;
+	font-weight: 500;
+	color: #0099ff;
+	text-align: center;
+}
+.login_in ul,
+.login_in li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.login_in ul {
+	background: #fff;
+	border-top: 1px solid #d3d4d4;
+	overflow: hidden;
+	margin-bottom: 15px;
+	width: 248px;
+	overflow: hidden;
+}
+.login_in li {
+	border-bottom: 1px solid #d3d4d4;
+	padding: 5px;
+}
+.login_in li img {
+	vertical-align: top;
+}
+.login_in .input {
+	width: 225px;
+	padding: 5px;
+	vertical-align: middle;
+	border: 0 none;
+	background: transparent;
+	font-size: 18px;
+	font-family: Arial, "Microsoft Yahei";
+}
+.login_in .input:focus {
+	outline: 0 none;
+}
+.btn {
+	width: 248px;
+	height: 38px;
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+	background-color: #549fcc;
+	overflow: visible;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+	font-family: Arial, "Microsoft Yahei";
+	border: 1px solid #549fcc;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.btn:hover {
+	background-position: 0 -41px;
+}
+.btn:active {
+	background-position: 0 -80px;
+}
+.placeholder {
+	color: #999;
+}
+/*登录框动画*/
+
+@-webkit-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(.3);
+	}
+	50% {
+		opacity: 1;
+		-webkit-transform: scale(1.05);
+	}
+	70% {
+		-webkit-transform: scale(.9);
+	}
+	100% {
+		-webkit-transform: scale(1);
+	}
+}
+@-moz-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-moz-transform: scale(.3);
+	}
+	50% {
+		opacity: 1;
+		-moz-transform: scale(1.05);
+	}
+	70% {
+		-moz-transform: scale(.9);
+	}
+	100% {
+		-moz-transform: scale(1);
+	}
+}
+@-o-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-o-transform: scale(.3);
+	}
+	50% {
+		opacity: 1;
+		-o-transform: scale(1.05);
+	}
+	70% {
+		-o-transform: scale(.9);
+	}
+	100% {
+		-o-transform: scale(1);
+	}
+}
+@keyframes bounceIn {
+	0% {
+		opacity: 0;
+		transform: scale(.3);
+	}
+	50% {
+		opacity: 1;
+		transform: scale(1.05);
+	}
+	70% {
+		transform: scale(.9);
+	}
+	100% {
+		transform: scale(1);
+	}
+}

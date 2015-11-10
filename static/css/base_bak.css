@@ -1,0 +1,252 @@
+.icona {
+  background-image: url(../images/frontSprite.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 55px;
+  height: 55px;
+  overflow: hidden;
+}
+.icona-flex {
+  background-position: 0 -115px;
+}
+.icona-know {
+  background-position: -56px -115px;
+}
+.icona-imme {
+  background-position: -112px -115px;
+}
+.icona-pic {
+  background-position: -56px -177px;
+}
+.icona-cost {
+  background-position: -112px -177px;
+}
+.icona-safe {
+  background-position: 0 -177px;
+}
+.icon-box {
+  height: 80px;
+  width: 100%;
+  position: relative;
+  display: block;
+}
+.pscc {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+.itemBox {
+  background: #EFF0F2;
+  border-top: 1px solid #dcdada;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.bd1 {
+  border: 1px solid #979797;
+}
+.wd100p {
+  width: 100%;
+}
+.wd200p {
+  width: 200%;
+}
+.wd10 {
+  width: 10px;
+}
+h3.tile-title {
+  font-size: 16px;
+}
+.footer {
+  /*background: #2C3E50;*/
+  font-size: 14px;
+  font-weight: normal;
+}
+/**add-2014-11-20*/
+
+.fl{ float:left;}
+.fr{ float:right;}
+.footer-web{
+    height:125px;
+    background:#40a5e1;
+}
+.footer-web,.footer-web a{
+    color:#FFF;
+}
+.footer-web dl {
+    display: inline-flex;
+    margin-bottom: 14px;
+}
+.footer-web dl dt,.footer-web dl dd{
+    line-height: 35px;
+}
+.footer-web dl dd span{
+    margin-right: 10px;
+}
+.right address{
+    margin-bottom: 0px;
+}
+/**add-2014-11-20*/
+.footer a {
+  font-size: 12px;
+  font-weight: normal;
+}
+.footer p {
+  font-size: 12px;
+}
+.mobile-btn {
+  background: #34495E;
+  width: 135px;
+}
+.mb0 {
+  margin-bottom: 0;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.ml20 {
+  margin-left: 20px;
+}
+.ml10 {
+  margin-left: 10px;
+}
+.pt20 {
+  padding-top: 20px;
+}
+.pb20 {
+  padding-bottom: 20px;
+}
+.p50 {
+  padding: 50px;
+}
+.ft1em {
+  font-size: 1em;
+}
+.ft13em {
+  font-size: 1.3em;
+}
+.lh18 {
+  line-height: 1.8;
+}
+.mast {
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+  opacity: 0.8;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.prompt {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9999999;
+}
+#info {
+  opacity: 0;
+}
+.fs12 {
+  font-size: 12px;
+}
+.fs24 {
+  font-size: 24px;
+}
+.ovat {
+  overflow: auto;
+}
+/**add-2014-11-20*/
+/*top css start*/
+.top-web{ width:100%; height:30px; background:#2190d7; border-bottom:1px solid #1e81c1;}
+.topcenter{ width:1024px; line-height:30px; margin:0 auto;}
+/*.topleft{ padding-top:2px;}*/
+.topright{ padding-right:15px;}
+.topright span{ margin-right:10px;}
+.topright span,.topright span a{ color:#FFF;}
+.topinput{ width:170px; height:20px; line-height:20px; border:1px solid #DDDDDD; padding:1px 30px 1px 5px; background: url(../images/search-top.png) no-repeat right center #FFF;}
+
+
+/*banner css*/
+#nav-outer {
+    height:90px;
+    position:relative;
+    background-image:url("../images/headerbg.png");
+    -webkit-box-shadow: 0px 0px 2px #666;
+    -moz-box-shadow: 0px 0px 2px #666;
+    box-shadow: 0px 0px 2px #666;
+}
+#navigation {
+    height:90px;
+    width:1024px;
+    margin:0 auto;
+    background-position:top left;
+    background-repeat:no-repeat;
+}
+#menu {
+    position:relative;
+}
+#menu ul {
+    list-style:none;
+}
+#menu ul li {
+    width:100px;
+    height:83px;
+    display:inline;
+    font-size:18px;
+    font-family:"黑体","迷你简黑体";
+}
+#menu ul li a {
+    color:#000;
+    text-decoration:none;
+    width:95px;
+    height:48px;
+    padding:35px 0 0 5px;
+    text-align:left;
+    display:inline-block;
+    box-sizing:unset;
+
+}
+#menu ul li a:hover {
+    color:#FFF;
+    text-decoration:none;
+    width:95px;
+    height:48px;
+    padding:35px 0 0 5px;
+    text-align:left;
+    background:url(../images/nav-bg.png) no-repeat top center;
+}
+.logo-web{ width:250px; height:64px; padding-top:15px;}
+.webnav{  height:90px;}
+
+/*content css*/
+.beizhu-web{ height:35px; line-height:35px; background:#00638c;}
+.footleft{ width:640px; border-right:1px solid #00638c;}
+.footright{ width:360px;}
+.footcenter{ width:1024px; margin:0 auto;}
+.footcenter,.footcenter a{ color:#FFF;}
+
+.public-web{width:1024px; margin:0 auto; background:#FFF; padding:20px 0;}
+
+.logincen{ padding:30px 0 20px 0;}
+
+
+.login-input{ border:4px solid #f2f2f2; padding:40px 20px 20px 20px; min-height:460px; background:url(../images/2-1.png) no-repeat right center;}
+
+.red{color:red;}

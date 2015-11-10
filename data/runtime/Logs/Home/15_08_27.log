@@ -1,0 +1,46 @@
+[ 2015-08-27T15:53:17+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003097s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0563s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+NOTIC: [8] Undefined index: real_name C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 163 行.
+NOTIC: [8] Undefined index: account_id C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 167 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+
+[ 2015-08-27T15:53:17+08:00 ] ::1 /Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\yzp\secret\minephp\ppker\Core\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `operation_log` [ RunTime:0.0389s ]
+NOTIC: [8] Undefined index: allController C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 150 行.
+NOTIC: [2] array_values() expects parameter 1 to be array, null given C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 156 行.
+NOTIC: [8] Undefined index: real_name C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 163 行.
+NOTIC: [8] Undefined index: account_id C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 167 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::getModuleControllerForMe() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 39 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkNotAuth() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxExtCommonController.class.php 第 40 行.
+NOTIC: [2048] Non-static method Common\Controller\DxFunction::checkInNotArray() should not be called statically, assuming $this from incompatible context C:\yzp\secret\minephp\app\Common\Controller\DxFunction.class.php 第 206 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001802s ]
+

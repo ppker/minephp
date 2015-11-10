@@ -5,6 +5,7 @@
 */
 namespace Home\Controller;
 use Common\Controller\DxPublicController;
+
 class PublicController extends DxPublicController {
-	
+
 }

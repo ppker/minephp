@@ -1,0 +1,73 @@
+/* =================修改  css=================== */
+body{font-family:"Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;}
+.gt-head-div, .gt-panel-head {
+	background:#e9f0f9;
+	background-image: -moz-linear-gradient(top, #e9f0f9, #e9f0f9);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e9f0f9), to(#e9f0f9));
+	background-image: -webkit-linear-gradient(top, #e9f0f9, #e9f0f9);
+	background-image: -o-linear-gradient(top, #e9f0f9, #e9f0f9);
+	background-image: linear-gradient(to bottom, #e9f0f9, #e9f0f9);
+	background-repeat: repeat-x;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9f0f9', endColorstr='#e9f0f9', GradientType=0);
+}
+.gt-hd-row .gt-hd-row-over {
+	color:#666;
+	background:#f0f3f4;
+	background-image: -moz-linear-gradient(top, #f0f3f4 0%, #f0f3f4 100%);/* FF3.6+ */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f0f3f4), color-stop(100%, #f0f3f4)); /* Chrome,Safari4+ */
+	background-image: -webkit-linear-gradient(top, #f0f3f4 0%, #f0f3f4 100%); /* Chrome 10+,Safari 5.1+ */
+	background-image: -ms-linear-gradient(top, #f0f3f4 0%, #f0f3f4 100%); /* IE10+ */
+	background-image: -o-linear-gradient(top, #f0f3f4 0%, #f0f3f4 100%); /* Opera 11.10+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f3f4', endColorstr='#f0f3f4', GradientType=0); /* IE6-9 */
+	background-image: linear-gradient(top, #f0f3f4 0%, #f0f3f4 100%);
+}
+.gt-hd-row td {
+	color: #666;
+	background:#e9f0f9;
+	background-image: -moz-linear-gradient(top, #e9f0f9, #e9f0f9);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e9f0f9), to(#e9f0f9));
+	background-image: -webkit-linear-gradient(top, #e9f0f9, #e9f0f9);
+	background-image: -o-linear-gradient(top, #e9f0f9, #e9f0f9);
+	background-image: linear-gradient(to bottom, #e9f0f9, #e9f0f9);
+	background-repeat: repeat-x;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9f0f9', endColorstr='#e9f0f9', GradientType=0);
+	border-right:1px solid #dee5e7;
+	border-bottom:1px solid #dee5e7;
+	height:28px;
+	line-height:28px;
+	vertical-align:middle;
+	text-align:center;
+	font-family:"Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+.gt-toolbar-box {
+	background:#e9f0f9;
+}
+.gt-hd-row td .gt-inner {
+	color:#ffffff;
+}
+.gt-hd-row td .gt-inner{padding-top:0;}
+.gt-inner {
+    height:28px;
+    line-height:28px;
+}
+.gt-hd-split {
+	qdisplay: block;
+	height: 25px;
+	width: 3px;
+}
+.gt-hd-row td .gt-inner {
+color: #054b6e;
+font-weight:normal;
+font-size:12px;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+.gt-row td.gt-index-col{ background:#e9f0f9; width:20px; text-align:center;}
+.gt-row td.gt-index-col .gt-inner{ }
+.gt-hd-row .gt-hd-row-over{ width:20px;}
+.gt-freeze-div{ border:0px; solid #ccc;}

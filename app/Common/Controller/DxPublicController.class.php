@@ -13,6 +13,7 @@
  * */
 namespace Common\Controller;
 use Common\Controller\DxExtCommonController;
+
 class DxPublicController extends DxExtCommonController {
     public function index() {
      	if($this->checkSaveAccount()){
@@ -24,6 +25,7 @@ class DxPublicController extends DxExtCommonController {
          	$this->redirect('Public/login');
     }
     public function login() {
+        
         //die('ddddd');
     	//echo "sss";exit;
     	//自动登录
